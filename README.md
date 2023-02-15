@@ -1,5 +1,6 @@
 # GuidewithTarget (Degradome Sequencing Bioinformatics Pipeline)
-![alt text](https://github.com/Lin-zeng/GuidwithTarget/blob/main/Illustration.PNG)
+
+<img src=".\Illustration.PNG" width="100%" />
 
 A pipeline is built to analyze “guide:target” complementarity for Ago3-catalyzed splicing of transcripts guided by piRNAs in Drosophila Melanogaster. The analysis contains three parts, i.e., identification of Ago3 associated piRNAs from RNA immunoprecipitation (RIP) sequencing libraries, identification of cleavage products from degradome sequencing libraries, and pairing analysis between piRNAs and target transcripts. The pipeline is implemented via customized home-made scripts which involve several popular bioinformatics tools. Home-made scripts were written in R environment (v4.2.0), with ggplot2 (v3.4.0) package for data visualization. 
 
